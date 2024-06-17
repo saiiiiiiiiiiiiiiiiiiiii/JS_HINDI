@@ -8,7 +8,7 @@ let value = null; // This is null
 let email; // This is Undefined
 const symb = Symbol('123'); // This is syymbol
 const symb1 = Symbol('123');// This is Symbol
-console.log(symb === symb1);
+// console.log(symb === symb1);
 
 const BigNumber = 6494149419649619849619849619849196
 
@@ -27,6 +27,27 @@ const obj = {
 const myfunction = function () {
     console.log("Hello World");
 }
-console.log(typeof(value))
+// console.log(typeof(value))
 
 
+
+
+// ********************************Memory*********************************************************
+
+// Two Types of memory are there
+// 1) Stack  
+// for storing primitive data we use Stack Memory 
+// let myname = "Sainath";      //This is String Primitive Datatype
+// let myanotherName = myname;
+// myanotherName = "sai";
+// console.log(myanotherName);
+// console.log(myname);
+// 2) Heap 
+// And for storing non-Primitive data we use Heap Memory
+const User1 = {                              // This is Object Non-Primitive Datatype
+    name : "sainath",
+    age : 21
+}
+const user2 = User1;
+console.log(User1.name);
+console.log(user2.name);
