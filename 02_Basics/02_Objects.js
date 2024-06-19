@@ -36,4 +36,60 @@ console.log(JsUser.greetings());
 console.log(JsUser.greetings2());
 
 
+// Singleton Object 
+// const tinderUser = new Object(); // This is a Singleton Object ;
+const tinderUser = {}// This is a nonSingleton Object Means its a literal object;
+tinderUser.id = "2723abc";
+tinderUser.Name = "Sam";
+tinderUser.isLogedIn = false;
+
+// console.log(tinderUser);
+
+const regularUser = {
+  email:"Sam@gmail.com",
+  fullName:{
+    userFullName:{
+      firstName:"Sam",
+      lastName:"More"
+    }
+  }
+}
+// console.log(regularUser.fullName.userFullName.firstName);
+
+const obj1 = {
+  1:"a",
+  2:"b",
+  3:"c"
+}
+const obj2 = {
+  4:"d",
+  5:"e",
+  6:"f"
+}
+
+// const obj3 = {...obj1,...obj2}; //Through this you can combine  two objects but This is spreadOperator  approach we usually use this in array
+// const obj3 = Object.assign({},obj1,obj2)//This is an object method approach through Object.assign() Method you can get the combination of the key value pairs of the two different object as a one object 
+// console.log(obj3);
+const users =[
+  {
+    id:1,
+    name:"Sai"
+  },
+  {
+    id:1,
+    name:"Sai"
+  },
+  {
+    id:1,
+    name:"Sai"
+  }
+]
+// console.log(users[0].id);
+console.log(tinderUser);
+console.log(Object.keys(tinderUser));
+console.log(Object.values(tinderUser));
+console.log(Object.entries(tinderUser));
+console.log(Object.hasOwnProperty('uq2vdui'));
+
+
 
