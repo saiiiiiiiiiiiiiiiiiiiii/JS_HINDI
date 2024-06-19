@@ -41,6 +41,15 @@ console.log(num.valueOf(num));
 
 // console.log(Math.random()) // Math.random() we get the random math values between 0 and 1 ;
 // console.log((Math.random()* 10) +1);
+console.log(Math.abs(-2));
+console.log(Math.floor(4.9));
+console.log(Math.ceil(4.1));
+console.log(Math.round(4.3));
+console.log(Math.max(1,5,3,9))
+console.log(Math.min(1,5,3,9))
+console.log(Math.sqrt(25));
+console.log(Math.random());
+
 
 const min = 10;
 const max = 20;
