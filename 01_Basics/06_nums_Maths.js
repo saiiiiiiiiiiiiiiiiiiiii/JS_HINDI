@@ -14,6 +14,20 @@
 // const otherNumber = 1000000;
 // console.log(otherNumber.toLocaleString('en-In'));
 
+const num = 1000000000000 ;
+console.log(Number.isFinite(2723));// This Method tells that the value is finite or not
+console.log(Number.isInteger(2723));// This Method tells That the value is integer or not
+console.log(Number.isNaN(2723));// This Method tells that the value is  number or not
+console.log(Number.isSafeInteger(2723)); // This Method says that value is probably be the safe integer or not based on the range -2 raise to 53 +1 and +2 raise to53 -1;
+console.log(Number.parseFloat("2723"));//Number.parseInt() is a method in JavaScript used to convert a string into an integer. It reads the string from left to right and converts it to an integer value
+console.log(Number.parseInt("abc2723"));//Number.parseInt() is a method in JavaScript that converts a string into an integer by parsing it and stopping when it encounters a non-numeric character. This function is useful for converting strings containing numbers into integer values.
+console.log(Number.prototype.toExponential(2));//
+console.log(num.toFixed());//Number.prototype.toFixed() is a method in JavaScript that formats a number using fixed-point notation. This method converts a number into a string, keeping a specified number of digits after the decimal point.
+console.log(num.toLocaleString('en-In'));// Returns a string with a language-sensitive representation of the number.
+console.log(num.toPrecision());
+console.log(num.toString());
+console.log(num.valueOf(num));
+
 
 
 // ************************************************************************Maths***********************************************************************
