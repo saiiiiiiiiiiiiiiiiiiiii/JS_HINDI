@@ -54,4 +54,6 @@ console.log(str2.toUpperCase());// This method return the string in capital lett
 console.log(str2.toLowerCase());// This Method return the string in Small letters 
 console.log(str2.toString());// This Method return the appropraite value in string format 
 console.log(str2.trim());// This Method removes the spaces from the string
-console.log(str2.trimEnd());// This Method removes the spaces from t
+console.log(str2.trimEnd());// This Method removes the spaces from the end 
+console.log(str2.trimStart());//This Method removes the spaces from the stringm from start
+console.log(str2.valueOf());// This Method gives the value of string what ever it is.
