@@ -280,4 +280,15 @@ console.log(person.work());
 
 
 
+// Destructring of Objects;
+const course = {
+  courseName : "Javascript",
+  price : 999,
+  courseInstructor : "Hitesh"
+}
+const {courseInstructor: Instructer} = course // THis is destructring in javascript
+// console.log(Instructer);
+
+
+
 
